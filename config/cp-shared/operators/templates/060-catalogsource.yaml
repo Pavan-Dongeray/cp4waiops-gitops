@@ -10,6 +10,3 @@ spec:
   publisher: IBM
   sourceType: grpc
   image: {{.Values.spec.imageCatalog}}
-  updateStrategy:
-    registryPoll:
-      interval: 45m
